@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    width: 1140px;
+}
+/* ******* nav bar ******* */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 91px;
+}
+.nav-link , .nav-link ul{
+    display: flex;
+    align-items: center;
+}
+.navs .container{
+    margin: auto;
+}
+button:hover , .python-right button:hover{
+    background: inherit;
+    border: 1px solid #ff7500;
+    color: #ff7500;
+}
+.navbar-cross{
+    border: 2px solid #ff7500;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    margin-right: 32px;
+    background: linear-gradient(currentColor 0 0) bottom /var(--d, 0) 3px no-repeat;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.nav-logo h1{
+    color: #252420;
+    margin-left: 12px;
+    font-size: 32px;
+}
+.nav-logo span{
+    color: #ff7500;
+}
+
+.nav-link a:hover{
+    --d: 100%;
+    color: #ff7500;
+}
+.button-logo{
+    background: #ff7500;
+    color: #ffffff;
+    width: 155px;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+}
+/* navbar end */
+
+
+
+/* python about */
+.python-about .container{
+    display: flex;
+    margin: auto;
+    height: 488px;
+    justify-content: space-between;
+}
+.python-section{
+    background-color: #252420;
+}
+.python-right{
+    width: 30%;
+}
+.python-cross{
+    width: 80px;
+    height: 3px;
+    color: #ff7500;
+    background-color: #ff7500;
+    margin-top: 80px;
+}
+.python-text{
+    color: #ffffff;
+}
+.python-text h1{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.python-text p{
+    font-size: 16px;
+    margin: 24px 0 32px 0;
+}
+button{
+    width: 152px;
+    height: 39px;
+    background-color: #ff7500;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+.python-book{
+    transform-origin: left top;
+    transition: transform 2s;
+    width: 510px;
+    height: 510px;
+    margin-top: 40px;
+}
+.python-book:hover{
+    transform: translate(0, -40px);
+}
+
+
+/* python about end  */
+
+
+ /* academnashr about */
+.academnashr-about .container{
+    margin: auto;
+    display: flex;
+}
+.academ-cross{
+    width: 80px;
+    height: 3px;
+    color: #ff7500;
+    background-color: #ff7500;
+    margin-top: 209px;
+}
+.academ-right h1{
+    font-size: 72px;
+    width: 435px;
+    margin-top: 24px;
+    margin-bottom: 72px;
+}
+/* academnashr about end */
+/* icon box  */
+.icon-box .container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.icons h3{
+    margin: 32px 0 12px 0;
+    font-size: 24px;
+}
+.icons{
+    width: 314px;
+}
+/* icon box end */
+
+/* kids books */
+.kids-books-section .container{
+    display: flex;
+    margin: auto;
+    background: #252420;
+    border-radius: 12px;
+    margin-top: 210px;
+    margin-bottom: 160px;
+    height: 419px;
+}
+.kids-books{
+    width: 35%;
+    color: #ffffff;
+    margin: auto;
+}
+.kids-books span{
+    color: #ff7500;
+    font-weight: bold;
+}
+.books-photo img{
+    transform-origin: left top;
+    transition: transform 2s;
+    margin-top: -64px;
+    margin-right: 64px;
+}
+.books-photo img:hover{
+    transform: translate(0, 45px);
+}
+.kids-books h1{
+    font-size: 40px;
+}
+.kids-books p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+/* kids books end */
+
+
+/* footer */
+footer{
+    background-color: #F8F8F8;
+    height: 507px;
+}
+.academ-footer ,.footer-logo ,.social-network{
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+}
+.academ-footer{
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.footer-cross{
+    width: 1140px;
+    height: 2px;
+    background: rgba(37, 36, 32, 0.5);
+    margin-top: 40px;
+}
+footer .container{
+    margin: auto;
+}
+.social-network a{
+    margin-right: 16px;
+    color: #252420;
+}
+.footer-logo span{
+    color: #ff7500;
+}
+.footer-logo h1{
+    color: #252420;
+    margin-left: 12px;
+    font-size: 32px;
+}
+.footer-link{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 64px;
+}
+.footer-link a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #252420;
+    background: linear-gradient(currentColor 0 0) bottom /var(--d, 0) 3px no-repeat;
+    transition: 0.5s;
+}
+.footer-title ul li{
+    margin-top: 16px;
+}
+ul li a:hover{
+    --d: 100%;
+    color: #ff7500;
+}
